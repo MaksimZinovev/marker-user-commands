@@ -1,0 +1,17 @@
+pwd##display current working directory
+Ctrl + -  ##Undo last actios
+Ctrl + a - ##Go to the beginning of the line
+Ctrl + e - ##Go to the end of the line
+Ctrl + u – ##delete from the cursor to the start of the line.
+Ctrl + k – ##delete from the cursor to the end of the line.
+Ctrl + l – ##clear the terminal.
+Git commands ## =========
+git rm -r --cached dir_name##Untrack folder or file in git
+git push --force ##gpf! Push changes to remote repo (forced update)
+git ls-tree -r master --name-only  ##gtn List all files tracked by Git
+Chrome shortcuts  ## =========
+Shift+Ctr+C - ## Copy page or selected text as markdown to clipboard
+Shift+Cmd+1 - ## Copy to clipboard web page title and url link as markdown link 
+command## test command
+touch .gitignore## create gitignore
+gimac## espanso gitignore mac hidden files
