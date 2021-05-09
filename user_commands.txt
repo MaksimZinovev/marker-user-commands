@@ -15,3 +15,5 @@ Shift+Cmd+1 - ## Copy to clipboard web page title and url link as markdown link
 command## test command
 touch .gitignore## create gitignore
 gimac## espanso gitignore mac hidden files
+git remote add origin github_url##add a remote in Git before pushing from local repo to GitHub
+git push -uf origin master##push local Git repo to remote GitHub repo
