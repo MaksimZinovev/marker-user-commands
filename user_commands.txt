@@ -17,3 +17,19 @@ touch .gitignore## create gitignore
 gimac## espanso gitignore mac hidden files
 git remote add origin github_url##add a remote in Git before pushing from local repo to GitHub
 git push -uf origin master##push local Git repo to remote GitHub repo
+pip show package##show installed package location for python
+pip freeze > requirements.txt##create requirements file for python virtual environment
+U29 1-3 Thomas St Waitara NSW 2077##address company tax return Lifeliko
+U29 1-3 Thomas St Waitara NSW 2077##business addres Amazon Seller Central account
+U29 1-3 Thomas St Waitara NSW 2077##business address Childrens Product Certificate
+26620446933##ABN Lifeliko
+620446933##ACN Lifeliko
+775137973##TFN Lifeliko
+2017-07-14##registration date Lifeliko
+22410671##drivers licence Maksim Zinovev
+ln -s /path/to/file /path/to/symlink##create a new symlink (will fail if symlink exists already)
+ln -sf /path/to/file /path/to/symlink##create or update a symlink
+/Users/maksim/Library/Workflows/Applications##automator files path
+Cmd+Shift+M##obsidian MetaEdit
+git ls-files | xargs ls -l | sort -nrk5 | head -n 10##find the N largest files in a git repository
+git count-objects -vH##the actual size of your  git repository
