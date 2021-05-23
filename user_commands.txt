@@ -33,3 +33,5 @@ ln -sf /path/to/file /path/to/symlink##create or update a symlink
 Cmd+Shift+M##obsidian MetaEdit
 git ls-files | xargs ls -l | sort -nrk5 | head -n 10##find the N largest files in a git repository
 git count-objects -vH##the actual size of your  git repository
+acm "untrack **/Untitled*.md"##git untrack all files named using pattern in example
+find ./**  -name "Untitled*.md"##find all files named with a pattern in example including files in subfolders
