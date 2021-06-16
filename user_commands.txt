@@ -35,3 +35,6 @@ git ls-files | xargs ls -l | sort -nrk5 | head -n 10##find the N largest files i
 git count-objects -vH##the actual size of your  git repository
 acm "untrack **/Untitled*.md"##git untrack all files named using pattern in example
 find ./**  -name "Untitled*.md"##find all files named with a pattern in example including files in subfolders
+ffprobe -i riskstorming.mp4##inspect video file format quality
+ffmpeg -i riskstorming.mp4 -c:a copy -c:v vp9 -b:v 100K outputVP9.mp4##ffmpeg convert video to mp4
+ffmpeg -i input_filename.avi -c:v copy -c:a copy -y output_filename.mp4##ffmpeg Lossless conversion from AVI to MP4
